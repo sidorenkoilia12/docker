@@ -1,5 +1,7 @@
 FROM python:2.7-slim
 
+LABEL maintainer="Ilya Sidorenko"
+
 WORKDIR /app
 
 ADD . /app
