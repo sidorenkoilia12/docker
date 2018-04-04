@@ -10,6 +10,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 EXPOSE 80
 
+
 ENV NAME Dear user
 
 CMD ["python", "app.py"]
